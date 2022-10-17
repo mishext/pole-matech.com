@@ -1,0 +1,204 @@
+.SubscribeContainer {
+  padding-top: 220px;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  padding-left: 80px;
+  font-size: 20px;
+  padding-bottom: 100px;
+}
+
+.SubscribeContainerRight {
+  padding-top: 220px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-left: 80px;
+  font-size: 20px;
+  padding-bottom: 100px;
+  direction: rtl;
+}
+.formContainer2 {
+  display: flex;
+}
+
+.formContainer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.block {
+  display: block;
+  margin-top: 25px;
+  /* margin-bottom: 25px; */
+}
+.formSize {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  /* padding: 10px;
+  padding-right: 50px;
+  margin: 10px; */
+}
+.formSize div {
+  margin: 10px;
+  /* padding: 50px; */
+  width: 100%;
+}
+.messg {
+  align-self: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 1650px) {
+  .SubscribeContainer {
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 280px;
+  }
+  .SubscribeContainerRight {
+    width: 90%;
+    padding-left: 40px;
+    font-size: 16px;
+    padding-top: 270px;
+    padding-bottom: 100px;
+  }
+  .contactSContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-items: flex-start;
+  }
+  .mainWord {
+    font-size: 30px;
+  }
+  .phone {
+    font-size: 20px;
+  }
+  .formContainer {
+    margin-top: 30px;
+  }
+  .inputNormal {
+    font-size: 14px;
+  }
+  .inputMessg {
+    width: 330px;
+    height: 200px;
+    font-size: 16px;
+  }
+  .errors {
+    font-size: 12px;
+  }
+  .sendButton {
+    font-size: 16px;
+  }
+  .WhatsApp {
+    padding-left: 20px;
+    width: 50px;
+  }
+}
+@media screen and (max-width: 890px) {
+  .SubscribeContainer {
+    padding-top: 200px;
+  }
+  .SubscribeContainerRight {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .SubscribeContainer {
+    padding-top: 140px !important;
+  }
+  .SubscribeContainerRight {
+    width: 90%;
+    padding-left: 20px;
+    font-size: 12px;
+    padding-top: 140px !important;
+    padding-bottom: 100px;
+  }
+  .formSize div {
+    margin: 0px;
+    /* padding: 50px; */
+    width: 100%;
+  }
+  .paddingLeft {
+    padding-left: 20px;
+  }
+  .SubscribeContainer {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 170px;
+  }
+  .formSize {
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .formContainer2 {
+    display: flex;
+    justify-content: center;
+  }
+  .contactSContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-items: flex-start;
+  }
+  .mainWord {
+    font-size: 25px;
+  }
+  .phone {
+    font-size: 14px;
+  }
+  .formContainer {
+    margin-top: 30px;
+  }
+  .inputNormal {
+    font-size: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .inputMessg {
+    width: 270px;
+    height: 180px;
+    font-size: 14px;
+  }
+  .errors {
+    font-size: 10px;
+  }
+  .sendButton {
+    font-size: 14px;
+  }
+  .WhatsApp {
+    padding-left: 20px;
+    width: 30px;
+  }
+  .formContainer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .label {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,254 @@
+.HeaderContainer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(241, 240, 240, 0.815);
+}
+
+.Logo {
+  width: 250px;
+}
+.hiddenLinks {
+  display: flex;
+  flex-direction: row;
+}
+.hiddenLinksRight {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* .hiddenLinksRight {
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
+.links {
+  color: #0077b6;
+  font-size: 24px;
+  margin-right: 70px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.tabBarContainer {
+  background-color: transparent;
+  border: none;
+}
+.tab-bar {
+  display: none;
+  color: #0077b6;
+  font-size: 40px;
+}
+.tab-bar:active {
+  color: rgb(196, 185, 185);
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  /* color: red; */
+}
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  /* width: 85.5%; */
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -7px;
+  left: 0;
+  background-color: #c9e465;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.select {
+  align-self: center;
+}
+.selectRight {
+  margin-right: 40px;
+}
+/* .selectRight {
+  margin-right: 40px;
+} */
+.select-option {
+  padding: 5px;
+  background-color: rgb(228, 226, 226);
+}
+.SenegalFlag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 50px;
+}
+.select1 {
+  display: none;
+}
+@media screen and (max-width: 1650px) {
+  .hover-underline-animation:after {
+    bottom: -3px;
+  }
+  .HeaderContainer {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(241, 240, 240, 0.842);
+    padding-bottom: 10px;
+  }
+  .links {
+    color: #0077b6;
+    font-size: 18px;
+    margin-right: 70px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .HeaderContainer {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(241, 240, 240, 0.493);
+    margin-bottom: 90px;
+  }
+  #hidden {
+    position: absolute;
+    left: 0px;
+    margin-top: 52px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    height: auto;
+    width: 100%;
+    background-color: rgba(36, 30, 18, 0.767);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .select {
+    margin-right: 0px;
+    margin-top: 15px;
+  }
+  .HeaderContainer {
+    justify-content: space-between;
+  }
+  .tabBarContainer {
+    padding-right: 15px;
+  }
+  .tab-bar {
+    font-size: 50px;
+  }
+  .logoContainer {
+    padding-left: 10px;
+  }
+  .Logo {
+    width: 175px;
+  }
+  .hiddenLinks {
+    display: none;
+  }
+  .hiddenLinksRight {
+    display: none;
+  }
+  .tab-bar {
+    display: flex;
+  }
+  .links {
+    padding-right: 0px;
+    padding-top: 15px;
+    margin-right: 0px;
+    color: white;
+    padding-bottom: 5px;
+  }
+  .select {
+    margin-top: 10px;
+  }
+  .SenegalFlag {
+    position: absolute;
+    top: 34%;
+    left: 45%;
+    /* right: 12px; */
+    width: 50px;
+  }
+  .select1 {
+    display: block;
+    position: absolute;
+    top: 37%;
+    left: 64%;
+  }
+  .select-option1 {
+    padding: 3px;
+    background-color: rgb(228, 226, 226);
+  }
+}
+@media screen and (max-width: 580px) {
+  .hover-underline-animation:after {
+    bottom: -2px;
+  }
+  #hidden {
+    position: absolute;
+    left: 0px;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    height: auto;
+    width: 100%;
+    background-color: rgba(36, 30, 18, 0.767);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .Logo {
+    width: 125px;
+  }
+  .tab-bar {
+    font-size: 40px;
+  }
+  .links {
+    margin-right: 0px;
+    padding-top: 15px;
+  }
+  .SenegalFlag {
+    position: absolute;
+    top: 34%;
+    left: 43%;
+    /* right: 12px; */
+    width: 30px;
+  }
+  .select1 {
+    display: block;
+    position: absolute;
+    top: 32%;
+    left: 56%;
+  }
+  .select-option1 {
+    padding: 0.3px;
+    background-color: rgb(228, 226, 226);
+    font-size: 10px;
+  }
+}

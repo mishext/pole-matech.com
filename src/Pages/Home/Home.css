@@ -1,0 +1,421 @@
+.HomeContainer .alice-carousel__wrapper {
+  overflow-x: auto;
+  overflow-y: auto;
+  box-sizing: inherit;
+}
+
+.HomeContainer .alice-carousel__stage-item {
+  width: 100% !important;
+}
+.HomeContainer .alice-carousel__dots {
+  display: none;
+  /* position: absolute;
+  bottom: 10%;
+  left: 48%; */
+}
+.HomeContainer .SliderImage {
+  width: 100%;
+  height: 100vh;
+}
+.HomeContainer .alice-carousel__next-btn-item {
+  position: absolute;
+  top: 40%;
+  right: 5px;
+  text-align: right;
+  font-size: 80px;
+  width: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: black !important;
+}
+.HomeContainer .alice-carousel__prev-btn-item {
+  position: absolute;
+  top: 40%;
+  left: 5px;
+  text-align: left;
+  font-size: 80px;
+  width: 50px;
+  color: black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.SliderImage {
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+.PlanImgBackground {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  align-self: center;
+  margin: auto;
+  margin-top: 215px;
+  width: 1500px;
+}
+.DownSection {
+  margin-top: 50px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.DownSectionRight {
+  margin-top: 50px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.DownPSection {
+  width: 40%;
+}
+.DownPSectionRight {
+  width: 40%;
+  margin-left: 40px;
+  justify-content: flex-end;
+  justify-items: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+  text-align: end;
+}
+#ulRemove {
+  list-style: none;
+  text-align: end;
+}
+.DakarImage {
+  width: 600px;
+}
+.planSection {
+  background-color: rgba(201, 201, 201, 0.205);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: start;
+  padding-bottom: 100px;
+  font-size: 18px;
+}
+.planSectionRight {
+  background-color: rgba(201, 201, 201, 0.205);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  /* text-align: start; */
+  padding-bottom: 100px;
+  direction: rtl;
+  font-size: 18px;
+}
+.abso {
+  position: absolute;
+}
+.movingText2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  /* transform: translate(-50%, -50%); */
+  /* color: white; */
+  color: black !important;
+  font-weight: bold;
+  /* color: rgb(255, 255, 48); */
+  background-color: rgba(255, 255, 255, 0.836) !important;
+  border-radius: 520px;
+  /* padding: 80px; */
+  /* padding-bottom: 210px; */
+}
+.movingText2Right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  color: black !important;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.836) !important;
+  border-radius: 520px;
+}
+.movingText2 p {
+  margin-bottom: 0px;
+  /* padding-top: 50px; */
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+.movingText2Right p {
+  margin-bottom: 0px;
+
+  padding-bottom: 30px;
+  padding-right: 40px;
+}
+.clickHereButton {
+  border-radius: 50px;
+  padding: 25px;
+  font-size: 20px;
+  background-color: #345e9e;
+  border: 1px solid white;
+  /* margin-bottom: 10px; */
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.clickHereButton a {
+  color: white;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.clickHereButton:hover {
+  color: yellow;
+  border: 2px solid yellow;
+}
+
+.clickHereButton a:hover {
+  color: yellow;
+}
+
+@media screen and (max-width: 1680px) {
+  .PlanImgBackground {
+    margin-top: 280px;
+    width: 1100px;
+  }
+  .movingText2 {
+    font-size: 28px;
+    top: 50%;
+    left: 8%;
+  }
+  .movingText2 p {
+    margin-bottom: 0px;
+    /* padding-top: 50px; */
+    padding-bottom: 30px;
+    padding-left: 40px;
+  }
+  .movingText2Right {
+    font-size: 28px;
+    top: 50%;
+    right: 8%;
+  }
+  .movingText2Right p {
+    margin-bottom: 0px;
+
+    padding-bottom: 30px;
+    padding-right: 40px;
+  }
+  .clickHereButton {
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 16px;
+    background-color: #345e9e;
+    border: 1px solid white;
+    /* margin-bottom: 10px; */
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .HomeContainer .alice-carousel__next-btn-item {
+    top: 50%;
+  }
+  .HomeContainer .alice-carousel__prev-btn-item {
+    top: 50%;
+  }
+  .planSection {
+    font-size: 18px;
+  }
+  .planSectionRight {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .PlanImgBackground {
+    margin-top: 220px;
+    width: 800px;
+  }
+  .DownSection {
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .DownSectionRight {
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .DownPSectionRight {
+    width: 80%;
+    margin-right: 40px;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    text-align: end;
+  }
+  .DownPSection {
+    width: 80%;
+  }
+  .DakarImage {
+    width: 600px;
+  }
+
+  .planSection {
+    font-size: 18px;
+  }
+  .planSectionRight {
+    font-size: 18px;
+  }
+  .planSection p {
+    width: 80%;
+  }
+  .movingText2 {
+    font-size: 18px;
+    top: 30%;
+    left: 5%;
+  }
+  .movingText2 p {
+    margin-bottom: 0px;
+    /* padding-top: 50px; */
+    padding-bottom: 30px;
+    padding-left: 40px;
+  }
+  .movingText2Right {
+    font-size: 18px;
+    top: 30%;
+    right: 5%;
+  }
+  .movingText2Right p {
+    margin-bottom: 0px;
+
+    padding-bottom: 30px;
+    padding-right: 40px;
+  }
+  .clickHereButton {
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 14px;
+    background-color: #345e9e;
+    border: 1px solid white;
+    /* margin-bottom: 10px; */
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .HomeContainer .SliderImage {
+    width: 100%;
+    height: 60vh;
+  }
+  .HomeContainer .alice-carousel__next-btn-item {
+    top: 45%;
+    font-size: 40px;
+  }
+  .HomeContainer .alice-carousel__prev-btn-item {
+    top: 45%;
+    font-size: 40px;
+  }
+  .PlanImgBackground {
+    margin-top: 190px;
+    width: 400px;
+  }
+  .DownSection {
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .DownPSection {
+    width: 80%;
+  }
+  .DakarImage {
+    margin-top: 40px;
+    width: 350px;
+  }
+  .planSection {
+    /* background-color: rgba(201, 201, 201, 0.205);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: start; */
+    font-size: 14px;
+  }
+
+  .planSectionRight {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+  }
+  .planSection p {
+    width: 80%;
+  }
+  .planSection ul {
+    width: 85%;
+  }
+  .aftersize {
+    font-size: 18px !important;
+  }
+  .PlanImg {
+    width: 350px !important;
+  }
+  .movingText2 {
+    font-size: 12px;
+    top: 35%;
+    left: 5%;
+  }
+  .movingText2 p {
+    margin-bottom: 0px;
+    /* padding-top: 50px; */
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+  .movingText2Right {
+    font-size: 12px;
+    top: 35%;
+    right: 5%;
+  }
+  .movingText2Right p {
+    margin-bottom: 0px;
+
+    padding-bottom: 20px;
+    padding-right: 30px;
+  }
+  .clickHereButton {
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 10px;
+    background-color: #345e9e;
+    border: 1px solid white;
+    /* margin-bottom: 10px; */
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}

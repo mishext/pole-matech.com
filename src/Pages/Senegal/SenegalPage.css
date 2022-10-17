@@ -1,0 +1,120 @@
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;
+}
+
+.SenegalContainer {
+  padding-top: 220px;
+  box-sizing: content-box;
+  -ms-overflow-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+  padding-left: 80px;
+  font-size: 20px;
+  padding-bottom: 100px;
+}
+.SenegalContainerRight {
+  padding-top: 220px;
+  -ms-overflow-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-left: 80px;
+  font-size: 20px;
+  padding-bottom: 100px;
+  direction: rtl !important;
+}
+.ulRemove {
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+.underLine {
+  text-decoration: underline;
+}
+.bold {
+  font-weight: bold;
+}
+.blueSky {
+  color: rgb(0, 157, 255);
+}
+
+.blue {
+  color: blue;
+}
+.italic {
+  font-style: italic;
+}
+.green {
+  color: green;
+}
+
+.paddingTop {
+  padding-top: 20px;
+}
+.mainWord {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0077b6;
+}
+.mainWord span {
+  border-bottom: 5px #c9e465 solid;
+}
+@media screen and (max-width: 1650px) {
+  .SenegalContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-left: 40px;
+    font-size: 16px;
+    padding-top: 270px;
+    padding-bottom: 100px;
+  }
+  .SenegalContainerRight {
+    width: 90%;
+    padding-left: 40px;
+    font-size: 16px;
+    padding-top: 270px;
+    padding-bottom: 100px;
+  }
+  .mainWord {
+    font-size: 30px;
+  }
+  .big {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .SenegalContainer {
+    padding-top: 200px;
+  }
+  .SenegalContainerRight {
+    padding-top: 200px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .SenegalContainer {
+    width: 90%;
+    padding-left: 20px;
+    font-size: 12px;
+    padding-top: 140px !important;
+    padding-bottom: 100px;
+  }
+  .SenegalContainerRight {
+    padding-top: 140px !important;
+    width: 90%;
+    padding-left: 20px;
+    font-size: 12px;
+    padding-bottom: 100px;
+  }
+  .mainWord span {
+    font-size: 20px;
+  }
+  .big {
+    font-size: 16px;
+  }
+}
